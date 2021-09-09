@@ -58,54 +58,6 @@ UPDATE ascent
 set crag = replace (crag, "Sao Thome das letras", "São Thomé das Letras");
 
 --prox
-UPDATE user
-set city = replace (city, "Sao Paulo", "São Paulo");
-UPDATE user
-set city = replace (city, "Sao Paulo", "São Paulo");
-UPDATE user
-set city = replace (city, "sao paulo", "São Paulo");
-UPDATE user
-set city = replace (city, "são paulo", "São Paulo");
-UPDATE user
-set city = replace (city, "Bragança/São Paulo", "São Paulo");
-UPDATE user
-set city = replace (city, "Sao paulo", "São Paulo");
-UPDATE user
-set city = replace (city, "São paulo", "São Paulo");
-
---prox
-UPDATE user
-set city = replace (city, "CURITIBA", "Curitiba");
-UPDATE user
-set city = replace (city, "curitiba", "Curitiba");
-
---prox
-UPDATE user
-set city = replace (city, "curitiba", "Brasília");
-UPDATE user
-set city = replace (city, "Brasilia", "Brasília");
-UPDATE user
-set city = replace (city, "brasília", "Brasília");
-
---prox
-UPDATE user
-set city = replace (city, "porto alegre", "Porto Alegre");
-UPDATE user
-set city = replace (city, "PORTO ALEGRE", "Porto Alegre");
-
---prox
-UPDATE user
-set city = replace (city, "GOIANIA", "Goiânia");
-UPDATE user
-set city = replace (city, "goiânia", "Goiânia");
-UPDATE user
-set city = replace (city, "GOIÂNIA", "Goiânia");
-UPDATE user
-set city = replace (city, "Goiania", "Goiânia");
-UPDATE user
-set city = replace (city, "goiania", "Goiânia");
-
---prox
 ALTER TABLE ascent
 ADD COLUMN latitude_crag NUMERIC;
 
